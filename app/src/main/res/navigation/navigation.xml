@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.danielchoi.valorantapp.TitleFragment"
+        android:label="fragment_title">
+        <action
+            android:id="@+id/action_titleFragment_to_valMenu"
+            app:destination="@id/valMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/valMenu"
+        android:name="com.danielchoi.valorantapp.valMenu"
+        android:label="fragment_val_menu"
+        tools:layout="@layout/fragment_val_menu" >
+        <action
+            android:id="@+id/action_valMenu_to_agentFragment"
+            app:destination="@id/agentFragment" />
+        <action
+            android:id="@+id/action_valMenu_to_weaponFragment"
+            app:destination="@id/weaponFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agentFragment"
+        android:name="com.danielchoi.valorantapp.activitiesA.agentFragment"
+        android:label="fragment_agent"
+        tools:layout="@layout/fragment_agent" />
+    <fragment
+        android:id="@+id/weaponFragment"
+        android:name="com.danielchoi.valorantapp.weaponFragment"
+        android:label="fragment_weapon"
+        tools:layout="@layout/fragment_weapon" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.danielchoi.valorantapp.aboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
