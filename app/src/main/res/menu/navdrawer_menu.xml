@@ -4,6 +4,7 @@
 
     <item
         android:id="@+id/agentFragment"
+        android:icon="@drawable/agentmenu"
         android:title="Agents" />
     <item
         android:id="@+id/weaponFragment"

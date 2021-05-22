@@ -31,7 +31,7 @@
         tools:layout="@layout/fragment_agent" />
     <fragment
         android:id="@+id/weaponFragment"
-        android:name="com.danielchoi.valorantapp.weaponFragment"
+        android:name="com.danielchoi.valorantapp.activitiesW.weaponFragment"
         android:label="fragment_weapon"
         tools:layout="@layout/fragment_weapon" />
     <fragment
