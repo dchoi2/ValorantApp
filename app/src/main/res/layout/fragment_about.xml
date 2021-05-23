@@ -143,6 +143,28 @@
                 android:text="https://dev.to/bensalcie/android-kotlin-get-data-from-restful-api-having-multiple-json-objects-o5a"
                 android:textColor="#A02CF3"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Navigation Tutorial"
+                android:textColor="#DC22C3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://developer.android.com/codelabs/kotlin-android-training-add-navigation#0"
+                android:textColor="#A02CF3"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 
